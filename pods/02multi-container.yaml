@@ -4,11 +4,8 @@ metadata:
  name: multi-container
  namespace: development
 spec:
-containers:
-- name: nginx
-  image: nginx
-- name: sidecar
-  image: almalinux:8  
-
-
-
+ containers:
+ - name: nginx
+   image: nginx
+ - name: sidecar
+   image: almalinux:8

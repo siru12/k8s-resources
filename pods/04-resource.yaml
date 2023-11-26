@@ -3,8 +3,9 @@ kind: Pod
 metadata: 
   name: resource
 spec:
- - name: nginx
-   image: nginx
+containerPort:
+  - name: nginx
+    image: nginx
    resource: 
      requests: 
        cpu: "100m"

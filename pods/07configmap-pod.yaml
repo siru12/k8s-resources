@@ -10,15 +10,15 @@ spec:
    - name: Course
      valueFrom:
       configMapKeyRef:
-        name: mypodconfig
+        name: myconfigmap
         key: Course
    - name: Duration
      valueFrom:
        configMapKeyRef:
-         name: mypodconfig
+         name: myconfigmap
          key: Duration
    - name: TRAINER 
      valueFrom: 
        configMapKeyRef:
-         name: mypodconfig
+         name: myconfigmap
          key: TRAINER    

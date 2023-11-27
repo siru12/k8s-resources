@@ -6,6 +6,6 @@ metadata:
     app: myapplication
 data:
   Course: devops
-  Duration: 100HRS
+  Duration: 120HRS
   TRAINER: SIVAKUMAR
-  
+

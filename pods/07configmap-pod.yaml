@@ -21,4 +21,4 @@ spec:
      valueFrom: 
        configMapKeyRef:
          name: myconfigmap
-         key: TRAINER    
+         key: TRAINER

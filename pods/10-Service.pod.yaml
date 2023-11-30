@@ -11,7 +11,7 @@ spec:
      image: nginx
      ports: 
       - containerPort: 80
-        - name: http-web-svc
+        name: http-web-svc
 ---
 apiVersion: v1 
 kind: Service

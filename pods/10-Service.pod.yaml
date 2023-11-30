@@ -3,7 +3,7 @@ kind: Pod
 meatadata: 
  name: nginx
  labels: 
-   environment: dev
+   environment: develop
    app: frontend 
 spec: 
  containers:
@@ -19,7 +19,7 @@ metadata:
   name:  nginx-service
 spec:
   selector:
-    environment: dev 
+    environment: develop
     app : frontend
   ports:
   - name:  name-of-service-port
